@@ -1,0 +1,74 @@
+
+
+Compile time problem - Error - compiler finds it (you have to solve it)
+Exception is runtime problem - it occurs (may be we can address it)
+
+Error and Exception are two super classes that represent errors and exception
+
+For both the classes - the super class is Throwable (all of these classes are in java.lang package)
+
+Why throwable:  generally if exception occurs java/developer throws
+the exception to be addressed and caught
+
+all the java classes cannot be thrown, only those classes that are designated as subclasses
+of Throwable could be thrown
+
+to handle exception java has try,throw,catch,finally and throws keyword
+
+to represent exception java has 1000's of inbuilt classes and every library will have
+its own exception classes. and Even user can create their own exceptions
+
+ -----------------------------------------------------------------------------------------------------
+ 
+ 
+ Runtime problems
+ -----------------
+ 
+ Logical issues:  Runtime Exceptions (Unchecked  Exceptions)
+ 
+ software/hardware/networkfailures/externalfailures: ( Checked Exceptions)
+ 
+ 
+ There is class called as RuntimeException
+ 
+ All the subclasses of runtime exception are called UnCheckedException.
+ 
+     Nature:?    Java does not enforce Exception handling on the
+	 statements where there is a possible runtime exception (the compiler
+	 wont mandate exception to be handled for the statements involving runtime exceptions
+	 
+	 
+	 definition
+	divideThis(int a,int b) throws ArithmeticException
+	
+	call
+	divideThis(5,0) ------> despite a decleration of throws ArithmeticException
+	java willnot demand the exception to be handled because it is an uncheckexception
+	
+  all the direct subclasses of Exception that are not subclasses of RunTime exception
+  are called as Checked Exceptions
+  Nature: It is important/mandatory to handle exceptions for those
+  code that involves checked exception otherwise java will raise errors
+  
+  
+  definition
+  
+  connectDB(url,uname,pass) throws SQLException (SQLException is not RuntimeException)
+  
+  call
+  connectionDB(url,name,pass) //java raises an error if you dont use try and catch
+			you have two options
+			
+			1. You handle it by using try and catch
+			2. You bypass it by declaring your function as throws SQLException
+			
+			
+	Try: to block the statement that has possible exceptions
+	catch: to capture the thrown exception
+	throw: inbuilt exceptions are thrown by the language itself where as user defined
+	exeptions need to be programmatically thrown by using throw statement
+	          ex: throw new RecordNotFoundException()
+			  
+			  
+			  
+  

@@ -1,0 +1,97 @@
+
+```markdown
+# Configuring Log4j in a Maven Project
+
+## 1. Add Log4j Dependencies
+
+Add the following dependencies to your `pom.xml`:
+
+```xml
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.20.0</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.20.0</version>
+</dependency>
+```
+
+## 2. Create `log4j2.xml` Configuration
+
+Place this file in `src/main/resources/log4j2.xml`:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  <Appenders>
+    <!-- Console Appender -->
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+    <!-- File Appender with Daily Rolling -->
+    <RollingFile name="FileAppender"
+                 fileName="e:/logs/testingapp/app.log"
+                 filePattern="e:/logs/testingapp/app-%d{yyyy-MM-dd}.log.gz">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+      <Policies>
+        <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+      </Policies>
+    </RollingFile>
+  </Appenders>
+  <Loggers>
+    <Root level="info">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="FileAppender"/>
+    </Root>
+  </Loggers>
+</Configuration>
+```
+
+## 3. Usage Example
+
+```java
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class Main {
+    private static final Logger logger = LogManager.getLogger(Main.class);
+
+    public static void main(String[] args) {
+        logger.info("Application started.");
+    }
+}
+```
+
+## 4. Notes
+
+- Log files will be created in `e:/logs/testingapp/` and rolled daily.
+- Ensure the directory exists and your application has write permissions.
+
+
+## 5. Log Levels in Log4j
+
+Log4j supports several log levels to control the granularity of log output:
+
+- `TRACE`: Most detailed information, typically used for debugging.
+- `DEBUG`: Detailed information on the flow through the system.
+- `INFO`: Informational messages that highlight the progress of the application.
+- `WARN`: Potentially harmful situations.
+- `ERROR`: Error events that might still allow the application to continue running.
+- `FATAL`: Very severe error events that will presumably lead the application to abort.
+
+You can set the log level in the `<Root level="...">` or for specific loggers in your `log4j2.xml` configuration.
+
+Example:
+
+```xml
+<Root level="debug">
+    <AppenderRef ref="Console"/>
+    <AppenderRef ref="FileAppender"/>
+</Root>
+```
+
+Choose the appropriate level based on your application's needs to avoid excessive or insufficient logging.
+```

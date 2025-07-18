@@ -1,0 +1,49 @@
+JDBC -
+
+Java Database Connectivity (JDBC) is an API that allows 
+Java programs to interact with databases. 
+It provides methods for querying and updating data in a database, 
+and it is part of the Java Standard Edition platform.
+
+But in addition to the standard JDBC API,we need to use a JDBC driver,
+
+There is no one-size-fits-all JDBC driver,the driver 
+you need depends on the database you are using.
+
+there are four types of JDBC drivers:
+1. **JDBC-ODBC Bridge Driver**: 
+
+This driver translates JDBC calls into ODBC calls and forwards them to the ODBC driver. 
+It is not recommended for production use due to performance issues and limitations.
+
+2. **Native-API Driver**:
+
+This driver uses the client-side libraries of the database to convert JDBC calls
+ into database-specific calls.(vendor-specific driver, native driver)
+ 
+ 3. **Network Protocol Driver**:
+ This driver uses a middle-tier server to convert JDBC calls into database-specific calls.
+ 
+ 4. **Thin Driver**:
+ This driver is a pure Java driver that converts JDBC calls directly into database-specific calls.
+(vendor-specific driver, pure Java driver)
+
+JDBC Mechanism and steps:
+
+1. **Load the JDBC Driver**: 
+
+Before you can connect to a database, you need to load the JDBC driver class.
+   Use `Class.forName("driver_class_name")` to load the driver class.
+   
+ 2. **Establish a Connection**:
+     Use `DriverManager.getConnection(url, user, password)` 
+     to establish a connection to the database.
+     The `url` specifies the database location, and `user` and `password` are the credentials.
+  3. **Create a Statement**:
+      Use `Connection.createStatement()` to create a `Statement` object.
+  4. **Execute SQL Queries**:
+      This object is used to send SQL statements to the database.
+      You can use methods like `executeQuery()` for SELECT statements 
+      and `executeUpdate()` for INSERT, UPDATE, or DELETE statements.
+      Rarely we do ddl statements in JDBC. for that we use `execute()` method
+      or even `executeUpdate()` method.

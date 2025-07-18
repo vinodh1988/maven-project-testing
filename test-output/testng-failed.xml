@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Math Test suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Excel Test(failed)">
+    <classes>
+      <class name="com.testcode.DataDrivenTestExcel">
+        <methods>
+          <include name="testDivision" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.testcode.DataDrivenTestExcel -->
+    </classes>
+  </test> <!-- Excel Test(failed) -->
+</suite> <!-- Failed suite [Math Test suite] -->
