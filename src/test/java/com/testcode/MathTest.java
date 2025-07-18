@@ -31,6 +31,12 @@ public class MathTest {
 		assertEquals(2, result);
 	}
 	
+	@Test
+	public void testOneMore() {
+		int result = MathOperations.divide(6, 4);
+		assertEquals(1, result);
+	}
+	
 	@Test(expectedExceptions = ArithmeticException.class)
 	public void testDivideByZero() {
 		MathOperations.divide(5, 0);
