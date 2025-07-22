@@ -18,7 +18,7 @@ def push_results(url, user, password, project_id, run_name, results):
     res = requests.post(
         f'{url}/index.php?/api/v2/add_run/{project_id}',
         auth=(user, password),
-        json={"name": run_name, "include_all": True}
+        json={ "suite_id": 1,"name": run_name, "include_all": True}
     )
     run = res.json()
     print("Status Code:", res.status_code)
