@@ -21,6 +21,8 @@ def push_results(url, user, password, project_id, run_name, results):
         json={"name": run_name, "include_all": True}
     )
     run = res.json()
+    print("Status Code:", res.status_code)
+    print("Response Body:", res.text)
     run_id = run["id"]
 
     # Add results
