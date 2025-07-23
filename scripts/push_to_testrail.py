@@ -73,7 +73,7 @@ if __name__ == "__main__":
     print(suites)
     for suite in suites:
         print(f"- {suite}",suite)
-   suite_id = suites["suites"][0]["id"]
+    suite_id = suites["suites"][0]["id"]
 
     run_id = create_test_run(args.url, auth, args.project_id, suite_id, args.run_name)
     results = parse_testng_results(args.results)
