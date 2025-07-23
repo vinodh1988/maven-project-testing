@@ -26,26 +26,35 @@ def create_test_run(url, auth, project_id, suite_id, run_name):
         sys.exit(1)
     return res.json()["id"]
 
-def parse_testng_results(xml_path):
-    tree = ET.parse(xml_path)
+import xml.etree.ElementTree as ET
+
+def parse_testng_results(xml_file):
+    tree = ET.parse(xml_file)
     root = tree.getroot()
     results = []
-    for test in root.iter("test-method"):
-        name = test.attrib["name"]
-        status = test.attrib["status"]
-        case_id = None
-        if "C" in name:
-            try:
-                case_id = int(name.split("C")[1].split("_")[0])
-            except:
-                pass
-        if case_id:
-            results.append({
-                "case_id": case_id,
-                "status_id": 1 if status == "PASS" else 5 if status == "FAIL" else 2,
-                "comment": f"Automated result: {status}"
-            })
+
+    for suite in root.findall("suite"):
+        for test in suite.findall("test"):
+            for class_elem in test.findall("class"):
+                for method in class_elem.findall("test-method"):
+					print(method)
+                    name = method.attrib.get("name")
+                    status = method.attrib.get("status")
+                    
+                    if name.startswith("c") and "_" in name:
+                        try:
+                            case_id = int(name.split("_")[0][1:])
+                            status_id = 1 if status == "PASS" else 5
+                            comment = f"Status: {status}"
+                            results.append({
+                                "case_id": case_id,
+                                "status_id": status_id,
+                                "comment": comment
+                            })
+                        except ValueError:
+                            print(f"⚠️ Could not parse case_id from: {name}")
     return results
+
 
 def upload_results(results, url, auth, run_id):
     res = requests.post(f'{url}/index.php?/api/v2/add_results_for_cases/{run_id}',
