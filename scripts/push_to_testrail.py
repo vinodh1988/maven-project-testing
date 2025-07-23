@@ -47,7 +47,7 @@ def parse_testng_results(xml_file):
                     if not name or not status:
                         continue
 
-                    if name.startswith("c") and "_" in name:
+                    if name.startswith("C") and "_" in name:
                         try:
                             case_id = int(name.split("_")[0][1:])
                             status_id = 1 if status.upper() == "PASS" else 5
