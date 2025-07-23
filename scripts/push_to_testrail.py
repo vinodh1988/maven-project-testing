@@ -37,7 +37,7 @@ def parse_testng_results(xml_file):
         for test in suite.findall("test"):
             for class_elem in test.findall("class"):
                 for method in class_elem.findall("test-method"):
-					print(method)
+
                     name = method.attrib.get("name")
                     status = method.attrib.get("status")
                     
