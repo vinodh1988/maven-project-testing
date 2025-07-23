@@ -70,6 +70,7 @@ if __name__ == "__main__":
     auth = (args.user, args.password)
     suites = get_suites(args.url, auth, args.project_id)
     print("Available test suites:")
+    print(suites)
     for suite in suites:
         print(f"- {suite}",suite)
     suite_id = suites[0]["id"]
