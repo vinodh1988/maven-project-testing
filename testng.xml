@@ -18,4 +18,9 @@
             <class name="com.testcode.DataDrivenExcelTest"/>
         </classes>
       </test>
+        <test name="Rest Assured Test">
+        <classes>
+            <class name="com.testcode.RestAssuredTest"/>
+        </classes>
+      </test>
 </suite>
