@@ -76,5 +76,6 @@ if __name__ == "__main__":
     suite_id = suites["suites"][0]["id"]
 
     run_id = create_test_run(args.url, auth, args.project_id, suite_id, args.run_name)
+    print(args.results)
     results = parse_testng_results(args.results)
     upload_results(results, args.url, auth, run_id)
