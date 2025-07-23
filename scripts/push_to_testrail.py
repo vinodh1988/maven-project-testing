@@ -78,4 +78,5 @@ if __name__ == "__main__":
     run_id = create_test_run(args.url, auth, args.project_id, suite_id, args.run_name)
     print(args.results)
     results = parse_testng_results(args.results)
+    print("Parsed results:", results)
     upload_results(results, args.url, auth, run_id)
