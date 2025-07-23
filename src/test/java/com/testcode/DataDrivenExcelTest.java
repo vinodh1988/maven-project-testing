@@ -44,22 +44,22 @@ public class DataDrivenExcelTest {
     }
 
     @Test(dataProvider = "mathData")
-    public void c107_testAddition(double number1, double number2, double expectedAdd, double expectedSub, double expectedMul, double expectedDiv) {
+    public void C7_testAddition(double number1, double number2, double expectedAdd, double expectedSub, double expectedMul, double expectedDiv) {
         assertEquals(number1 + number2, expectedAdd,  "Addition failed");
     }
 
     @Test(dataProvider = "mathData")
-    public void c108_testSubtraction(double number1, double number2, double expectedAdd, double expectedSub, double expectedMul, double expectedDiv) {
+    public void C8_testSubtraction(double number1, double number2, double expectedAdd, double expectedSub, double expectedMul, double expectedDiv) {
         assertEquals(number1 - number2, expectedSub, "Subtraction failed");
     }
 
     @Test(dataProvider = "mathData")
-    public void c109_testMultiplication(double number1, double number2, double expectedAdd, double expectedSub, double expectedMul, double expectedDiv) {
+    public void C9_testMultiplication(double number1, double number2, double expectedAdd, double expectedSub, double expectedMul, double expectedDiv) {
         assertEquals(number1 * number2, expectedMul, "Multiplication failed");
     }
 
     @Test(dataProvider = "mathData")
-    public void c110_testDivision(double number1, double number2, double expectedAdd, double expectedSub, double expectedMul, double expectedDiv) {
+    public void C10_testDivision(double number1, double number2, double expectedAdd, double expectedSub, double expectedMul, double expectedDiv) {
         if (number2 != 0) {
            assertEquals(number1 / number2, expectedDiv, "Division failed");
         }
