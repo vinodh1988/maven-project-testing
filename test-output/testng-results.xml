@@ -1,485 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-23T08:28:18 IST" name="Default suite" finished-at="2025-07-23T08:28:22 IST" duration-ms="4130">
+  <suite started-at="2025-07-24T21:20:04 IST" name="Math Test suite" finished-at="2025-07-24T21:20:15 IST" duration-ms="10946">
     <groups>
     </groups>
-    <test started-at="2025-07-23T08:28:18 IST" name="Default test" finished-at="2025-07-23T08:28:22 IST" duration-ms="4130">
-      <class name="com.testcode.DataDrivenExcelTest">
-        <test-method signature="C18_testAddition(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@71d44a3]" started-at="2025-07-23T08:28:21 IST" name="C18_testAddition" data-provider="mathData" finished-at="2025-07-23T08:28:21 IST" duration-ms="10" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- C18_testAddition -->
-        <test-method signature="C18_testAddition(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@71d44a3]" started-at="2025-07-23T08:28:21 IST" name="C18_testAddition" data-provider="mathData" finished-at="2025-07-23T08:28:21 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[7.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[3.0]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[10.0]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[2.5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- C18_testAddition -->
-        <test-method signature="C18_testAddition(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@71d44a3]" started-at="2025-07-23T08:28:21 IST" name="C18_testAddition" data-provider="mathData" finished-at="2025-07-23T08:28:21 IST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[18.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[27.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9.0]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[162.0]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- C18_testAddition -->
-        <test-method signature="C19_testSubtraction(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@71d44a3]" started-at="2025-07-23T08:28:22 IST" name="C19_testSubtraction" data-provider="mathData" finished-at="2025-07-23T08:28:22 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- C19_testSubtraction -->
-        <test-method signature="C19_testSubtraction(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@71d44a3]" started-at="2025-07-23T08:28:22 IST" name="C19_testSubtraction" data-provider="mathData" finished-at="2025-07-23T08:28:22 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[7.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[3.0]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[10.0]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[2.5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- C19_testSubtraction -->
-        <test-method signature="C19_testSubtraction(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@71d44a3]" started-at="2025-07-23T08:28:22 IST" name="C19_testSubtraction" data-provider="mathData" finished-at="2025-07-23T08:28:22 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[18.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[27.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9.0]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[162.0]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- C19_testSubtraction -->
-        <test-method signature="C20_testMultiplication(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@71d44a3]" started-at="2025-07-23T08:28:22 IST" name="C20_testMultiplication" data-provider="mathData" finished-at="2025-07-23T08:28:22 IST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- C20_testMultiplication -->
-        <test-method signature="C20_testMultiplication(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@71d44a3]" started-at="2025-07-23T08:28:22 IST" name="C20_testMultiplication" data-provider="mathData" finished-at="2025-07-23T08:28:22 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[7.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[3.0]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[10.0]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[2.5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- C20_testMultiplication -->
-        <test-method signature="C20_testMultiplication(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@71d44a3]" started-at="2025-07-23T08:28:22 IST" name="C20_testMultiplication" data-provider="mathData" finished-at="2025-07-23T08:28:22 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[18.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[27.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9.0]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[162.0]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- C20_testMultiplication -->
-        <test-method signature="C21_testDivision(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@71d44a3]" started-at="2025-07-23T08:28:22 IST" name="C21_testDivision" data-provider="mathData" finished-at="2025-07-23T08:28:22 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- C21_testDivision -->
-        <test-method signature="C21_testDivision(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@71d44a3]" started-at="2025-07-23T08:28:22 IST" name="C21_testDivision" data-provider="mathData" finished-at="2025-07-23T08:28:22 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[7.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[3.0]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[10.0]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[2.5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- C21_testDivision -->
-        <test-method signature="C21_testDivision(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@71d44a3]" started-at="2025-07-23T08:28:22 IST" name="C21_testDivision" data-provider="mathData" finished-at="2025-07-23T08:28:22 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[18.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[27.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[9.0]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[162.0]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- C21_testDivision -->
-      </class> <!-- com.testcode.DataDrivenExcelTest -->
-      <class name="com.testcode.RestAssuredTest">
-        <test-method signature="testGetPeopleEndpoint()[pri:1, instance:com.testcode.RestAssuredTest@47eaca72]" started-at="2025-07-23T08:28:18 IST" name="testGetPeopleEndpoint" finished-at="2025-07-23T08:28:20 IST" duration-ms="2119" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetPeopleEndpoint -->
-        <test-method signature="testPostPeopleEndpoint()[pri:2, instance:com.testcode.RestAssuredTest@47eaca72]" started-at="2025-07-23T08:28:20 IST" name="testPostPeopleEndpoint" finished-at="2025-07-23T08:28:20 IST" duration-ms="82" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPostPeopleEndpoint -->
-        <test-method signature="testUpdatePeopleEndpoint()[pri:3, instance:com.testcode.RestAssuredTest@47eaca72]" started-at="2025-07-23T08:28:20 IST" name="testUpdatePeopleEndpoint" finished-at="2025-07-23T08:28:20 IST" duration-ms="62" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdatePeopleEndpoint -->
-        <test-method signature="testDeletePeopleEndpoint()[pri:4, instance:com.testcode.RestAssuredTest@47eaca72]" started-at="2025-07-23T08:28:20 IST" name="testDeletePeopleEndpoint" finished-at="2025-07-23T08:28:20 IST" duration-ms="18" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeletePeopleEndpoint -->
-      </class> <!-- com.testcode.RestAssuredTest -->
+    <test started-at="2025-07-24T21:20:04 IST" name="Math Test" finished-at="2025-07-24T21:20:04 IST" duration-ms="116">
       <class name="com.testcode.MathTest">
-        <test-method signature="C12_testAdd()[pri:0, instance:com.testcode.MathTest@7b98f307]" started-at="2025-07-23T08:28:22 IST" name="C12_testAdd" finished-at="2025-07-23T08:28:22 IST" duration-ms="3" status="PASS">
+        <test-method signature="C12_testAdd()[pri:0, instance:com.testcode.MathTest@34a3d150]" started-at="2025-07-24T21:20:04 IST" name="C12_testAdd" finished-at="2025-07-24T21:20:04 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C12_testAdd -->
-        <test-method signature="C13_testSubtract()[pri:0, instance:com.testcode.MathTest@7b98f307]" started-at="2025-07-23T08:28:22 IST" name="C13_testSubtract" finished-at="2025-07-23T08:28:22 IST" duration-ms="1" status="PASS">
+        <test-method signature="C13_testSubtract()[pri:0, instance:com.testcode.MathTest@34a3d150]" started-at="2025-07-24T21:20:04 IST" name="C13_testSubtract" finished-at="2025-07-24T21:20:04 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C13_testSubtract -->
-        <test-method signature="C14_testMultiply()[pri:0, instance:com.testcode.MathTest@7b98f307]" started-at="2025-07-23T08:28:22 IST" name="C14_testMultiply" finished-at="2025-07-23T08:28:22 IST" duration-ms="1" status="PASS">
+        <test-method signature="C14_testMultiply()[pri:0, instance:com.testcode.MathTest@34a3d150]" started-at="2025-07-24T21:20:04 IST" name="C14_testMultiply" finished-at="2025-07-24T21:20:04 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C14_testMultiply -->
-        <test-method signature="C15_testDivide()[pri:0, instance:com.testcode.MathTest@7b98f307]" started-at="2025-07-23T08:28:22 IST" name="C15_testDivide" finished-at="2025-07-23T08:28:22 IST" duration-ms="1" status="PASS">
+        <test-method signature="C15_testDivide()[pri:0, instance:com.testcode.MathTest@34a3d150]" started-at="2025-07-24T21:20:04 IST" name="C15_testDivide" finished-at="2025-07-24T21:20:04 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C15_testDivide -->
-        <test-method signature="C16_testOneMore()[pri:0, instance:com.testcode.MathTest@7b98f307]" started-at="2025-07-23T08:28:22 IST" name="C16_testOneMore" finished-at="2025-07-23T08:28:22 IST" duration-ms="3" status="PASS">
+        <test-method signature="C16_testOneMore()[pri:0, instance:com.testcode.MathTest@34a3d150]" started-at="2025-07-24T21:20:04 IST" name="C16_testOneMore" finished-at="2025-07-24T21:20:04 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C16_testOneMore -->
-        <test-method signature="C17_testDivideByZero()[pri:0, instance:com.testcode.MathTest@7b98f307]" started-at="2025-07-23T08:28:22 IST" name="C17_testDivideByZero" finished-at="2025-07-23T08:28:22 IST" duration-ms="2" status="PASS">
+        <test-method signature="C17_testDivideByZero()[pri:0, instance:com.testcode.MathTest@34a3d150]" started-at="2025-07-24T21:20:04 IST" name="C17_testDivideByZero" finished-at="2025-07-24T21:20:04 IST" duration-ms="2" status="PASS">
           <exception class="java.lang.ArithmeticException">
             <message>
               <![CDATA[Division by zero is not allowed.]]>
@@ -523,6 +71,478 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- C17_testDivideByZero -->
       </class> <!-- com.testcode.MathTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Math Test -->
+    <test started-at="2025-07-24T21:20:04 IST" name="Excel Test" finished-at="2025-07-24T21:20:06 IST" duration-ms="1257">
+      <class name="com.testcode.DataDrivenExcelTest">
+        <test-method signature="C18_testAddition(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T21:20:06 IST" name="C18_testAddition" data-provider="mathData" finished-at="2025-07-24T21:20:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C18_testAddition -->
+        <test-method signature="C18_testAddition(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T21:20:06 IST" name="C18_testAddition" data-provider="mathData" finished-at="2025-07-24T21:20:06 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C18_testAddition -->
+        <test-method signature="C18_testAddition(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T21:20:06 IST" name="C18_testAddition" data-provider="mathData" finished-at="2025-07-24T21:20:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[162.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C18_testAddition -->
+        <test-method signature="C19_testSubtraction(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T21:20:06 IST" name="C19_testSubtraction" data-provider="mathData" finished-at="2025-07-24T21:20:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C19_testSubtraction -->
+        <test-method signature="C19_testSubtraction(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T21:20:06 IST" name="C19_testSubtraction" data-provider="mathData" finished-at="2025-07-24T21:20:06 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C19_testSubtraction -->
+        <test-method signature="C19_testSubtraction(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T21:20:06 IST" name="C19_testSubtraction" data-provider="mathData" finished-at="2025-07-24T21:20:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[162.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C19_testSubtraction -->
+        <test-method signature="C20_testMultiplication(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T21:20:06 IST" name="C20_testMultiplication" data-provider="mathData" finished-at="2025-07-24T21:20:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C20_testMultiplication -->
+        <test-method signature="C20_testMultiplication(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T21:20:06 IST" name="C20_testMultiplication" data-provider="mathData" finished-at="2025-07-24T21:20:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C20_testMultiplication -->
+        <test-method signature="C20_testMultiplication(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T21:20:06 IST" name="C20_testMultiplication" data-provider="mathData" finished-at="2025-07-24T21:20:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[162.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C20_testMultiplication -->
+        <test-method signature="C21_testDivision(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T21:20:06 IST" name="C21_testDivision" data-provider="mathData" finished-at="2025-07-24T21:20:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C21_testDivision -->
+        <test-method signature="C21_testDivision(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T21:20:06 IST" name="C21_testDivision" data-provider="mathData" finished-at="2025-07-24T21:20:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C21_testDivision -->
+        <test-method signature="C21_testDivision(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T21:20:06 IST" name="C21_testDivision" data-provider="mathData" finished-at="2025-07-24T21:20:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[162.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C21_testDivision -->
+      </class> <!-- com.testcode.DataDrivenExcelTest -->
+    </test> <!-- Excel Test -->
+    <test started-at="2025-07-24T21:20:06 IST" name="Rest Assured Test" finished-at="2025-07-24T21:20:10 IST" duration-ms="4670">
+      <class name="com.testcode.RestAssuredTest">
+        <test-method signature="testGetPeopleEndpoint()[pri:1, instance:com.testcode.RestAssuredTest@ba2f4ec]" started-at="2025-07-24T21:20:06 IST" name="testGetPeopleEndpoint" finished-at="2025-07-24T21:20:10 IST" duration-ms="4251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPeopleEndpoint -->
+        <test-method signature="testPostPeopleEndpoint()[pri:2, instance:com.testcode.RestAssuredTest@ba2f4ec]" started-at="2025-07-24T21:20:10 IST" name="testPostPeopleEndpoint" finished-at="2025-07-24T21:20:10 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostPeopleEndpoint -->
+        <test-method signature="testUpdatePeopleEndpoint()[pri:3, instance:com.testcode.RestAssuredTest@ba2f4ec]" started-at="2025-07-24T21:20:10 IST" name="testUpdatePeopleEndpoint" finished-at="2025-07-24T21:20:10 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePeopleEndpoint -->
+        <test-method signature="testDeletePeopleEndpoint()[pri:4, instance:com.testcode.RestAssuredTest@ba2f4ec]" started-at="2025-07-24T21:20:10 IST" name="testDeletePeopleEndpoint" finished-at="2025-07-24T21:20:10 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePeopleEndpoint -->
+      </class> <!-- com.testcode.RestAssuredTest -->
+    </test> <!-- Rest Assured Test -->
+    <test started-at="2025-07-24T21:20:10 IST" name="Selenium Test" finished-at="2025-07-24T21:20:15 IST" duration-ms="4788">
+      <class name="com.testcode.GoogleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcode.GoogleTest@247bddad]" started-at="2025-07-24T21:20:10 IST" name="setUp" finished-at="2025-07-24T21:20:14 IST" duration-ms="3692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGoogleTitle()[pri:0, instance:com.testcode.GoogleTest@247bddad]" started-at="2025-07-24T21:20:14 IST" name="testGoogleTitle" finished-at="2025-07-24T21:20:15 IST" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcode.GoogleTest@247bddad]" started-at="2025-07-24T21:20:15 IST" name="tearDown" finished-at="2025-07-24T21:20:15 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcode.GoogleTest -->
+    </test> <!-- Selenium Test -->
+  </suite> <!-- Math Test suite -->
 </testng-results>

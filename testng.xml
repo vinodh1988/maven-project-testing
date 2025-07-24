@@ -23,4 +23,9 @@
             <class name="com.testcode.RestAssuredTest"/>
         </classes>
       </test>
+         <test name="Selenium Test">
+        <classes>
+            <class name="com.testcode.GoogleTest"/>
+        </classes>
+      </test>
 </suite>
