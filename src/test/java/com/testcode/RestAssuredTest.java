@@ -12,7 +12,7 @@ import io.restassured.RestAssured;
 public class RestAssuredTest {
 
     @Test(priority = 1)
-    public void testGetPeopleEndpoint() {
+    public void C24_testGetPeopleEndpoint() {
         RestAssured
             .given()
                 .baseUri("http://localhost:4500")
@@ -28,7 +28,7 @@ public class RestAssuredTest {
     
 
     @Test(priority = 2)
-    public void testPostPeopleEndpoint() {
+    public void C25_testPostPeopleEndpoint() {
         String requestBody = "{\"id\": \"105\", \"sno\": 105, \"name\": \"John Doe\", \"city\": \"New York\" }";
 
         RestAssured
@@ -46,7 +46,7 @@ public class RestAssuredTest {
     }
 
     @Test(priority = 3)
-    public void testUpdatePeopleEndpoint() {
+    public void C26_testUpdatePeopleEndpoint() {
         int snoToUpdate = 105; // Assuming this sno exists after the POST request
         String updatedBody = "{ \"sno\":105,\"name\": \"Jane Doe\", \"city\": \"Los Angeles\" }";
 
@@ -65,7 +65,7 @@ public class RestAssuredTest {
     }
 
     @Test(priority = 4)
-    public void testDeletePeopleEndpoint() {
+    public void C27_testDeletePeopleEndpoint() {
         String snoToDelete = "105";
 
         RestAssured
