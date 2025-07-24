@@ -28,4 +28,9 @@
             <class name="com.testcode.GoogleTest"/>
         </classes>
       </test>
+       <test name="Selenium Test two">
+        <classes>
+            <class name="com.testcode.WikipediaSearchTest"/>
+        </classes>
+      </test>
 </suite>

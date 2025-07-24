@@ -4,13 +4,15 @@
   <listeners>
     <listener class-name="org.testng.reporters.JUnitReportReporter"/>
   </listeners>
-  <test thread-count="5" name="Rest Assured Test(failed)">
+  <test thread-count="5" name="Selenium Test two(failed)">
     <classes>
-      <class name="com.testcode.RestAssuredTest">
+      <class name="com.testcode.WikipediaSearchTest">
         <methods>
-          <include name="testGetPeopleEndpoint"/>
+          <include name="C23_testSearchSeleniumOnWikipedia"/>
+          <include name="setup"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- com.testcode.RestAssuredTest -->
+      </class> <!-- com.testcode.WikipediaSearchTest -->
     </classes>
-  </test> <!-- Rest Assured Test(failed) -->
+  </test> <!-- Selenium Test two(failed) -->
 </suite> <!-- Failed suite [Math Test suite] -->
