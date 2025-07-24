@@ -18,11 +18,7 @@
             <class name="com.testcode.DataDrivenExcelTest"/>
         </classes>
       </test>
-        <test name="Rest Assured Test">
-        <classes>
-            <class name="com.testcode.RestAssuredTest"/>
-        </classes>
-      </test>
+       
          <test name="Selenium Test">
         <classes>
             <class name="com.testcode.GoogleTest"/>
