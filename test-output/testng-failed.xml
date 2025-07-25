@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="org.testng.reporters.JUnitReportReporter"/>
   </listeners>
-  <test thread-count="5" name="Selenium Test two(failed)">
+  <test thread-count="5" name="Selenium Test(failed)">
     <classes>
-      <class name="com.testcode.WikipediaSearchTest">
+      <class name="com.testcode.GoogleTest">
         <methods>
-          <include name="C23_testSearchSeleniumOnWikipedia"/>
-          <include name="setup"/>
-          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="C22_testGoogleTitle"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.testcode.WikipediaSearchTest -->
+      </class> <!-- com.testcode.GoogleTest -->
     </classes>
-  </test> <!-- Selenium Test two(failed) -->
+  </test> <!-- Selenium Test(failed) -->
 </suite> <!-- Failed suite [Math Test suite] -->

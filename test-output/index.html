@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Math_Test_suite" class="navigator-link">
-              <span class="suite-name border-failed">Math Test suite</span>
+              <span class="suite-name border-passed">Math Test suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">24 methods, 1 failed,   23 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Math_Test_suite" class="hide-methods failed suite-Math_Test_suite"> (hide)</a> <!-- hide-methods failed suite-Math_Test_suite -->
-                      <a href="#" panel-name="suite-Math_Test_suite" class="show-methods failed suite-Math_Test_suite"> (show)</a> <!-- show-methods failed suite-Math_Test_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Math_Test_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Math_Test_suite" title="com.testcode.WikipediaSearchTest" class="method navigator-link" hash-for-method="C23_testSearchSeleniumOnWikipedia">C23_testSearchSeleniumOnWikipedia</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Math_Test_suite -->
+                    <span class="method-stats">24 methods,   24 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -212,6 +198,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Math_Test_suite" title="com.testcode.WikipediaSearchTest" class="method navigator-link" hash-for-method="C23_testSearchSeleniumOnWikipedia">C23_testSearchSeleniumOnWikipedia</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Math_Test_suite" title="com.testcode.RestAssuredTest" class="method navigator-link" hash-for-method="C24_testGetPeopleEndpoint">C24_testGetPeopleEndpoint</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -242,45 +233,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Math_Test_suite" class="panel Math_Test_suite">
-          <div class="suite-Math_Test_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.testcode.WikipediaSearchTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="C23_testSearchSeleniumOnWikipedia">
-                  </a> <!-- C23_testSearchSeleniumOnWikipedia -->
-                  <span class="method-name">C23_testSearchSeleniumOnWikipedia</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#firstHeading&quot;}
-  (Session info: chrome=138.0.7204.169)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1a0ab61a7949c3f15f1d3f98132df09b, findElement {value=firstHeading, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\vinodh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61364}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61364/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1a0ab61a7949c3f15f1d3f98132df09b
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at com.testcode.WikipediaSearchTest.C23_testSearchSeleniumOnWikipedia(WikipediaSearchTest.java:30)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Math_Test_suite-class-failed -->
           <div class="suite-Math_Test_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -378,6 +330,21 @@ Session ID: 1a0ab61a7949c3f15f1d3f98132df09b
                   <a name="C17_testDivideByZero">
                   </a> <!-- C17_testDivideByZero -->
                   <span class="method-name">C17_testDivideByZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Math_Test_suite-class-passed -->
+          <div class="suite-Math_Test_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcode.WikipediaSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="C23_testSearchSeleniumOnWikipedia">
+                  </a> <!-- C23_testSearchSeleniumOnWikipedia -->
+                  <span class="method-name">C23_testSearchSeleniumOnWikipedia</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -575,79 +542,79 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(24);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'C24_testGetPeopleEndpoint')
-data.setCell(0, 2, 'com.testcode.RestAssuredTest')
-data.setCell(0, 3, 5218);
+data.setCell(0, 1, 'C23_testSearchSeleniumOnWikipedia')
+data.setCell(0, 2, 'com.testcode.WikipediaSearchTest')
+data.setCell(0, 3, 5814);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'C23_testSearchSeleniumOnWikipedia')
-data.setCell(1, 2, 'com.testcode.WikipediaSearchTest')
-data.setCell(1, 3, 1294);
+data.setCell(1, 1, 'C24_testGetPeopleEndpoint')
+data.setCell(1, 2, 'com.testcode.RestAssuredTest')
+data.setCell(1, 3, 4969);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'C22_testGoogleTitle')
 data.setCell(2, 2, 'com.testcode.GoogleTest')
-data.setCell(2, 3, 976);
+data.setCell(2, 3, 1725);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'C25_testPostPeopleEndpoint')
 data.setCell(3, 2, 'com.testcode.RestAssuredTest')
-data.setCell(3, 3, 237);
+data.setCell(3, 3, 191);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'C26_testUpdatePeopleEndpoint')
 data.setCell(4, 2, 'com.testcode.RestAssuredTest')
-data.setCell(4, 3, 138);
+data.setCell(4, 3, 128);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'C27_testDeletePeopleEndpoint')
 data.setCell(5, 2, 'com.testcode.RestAssuredTest')
-data.setCell(5, 3, 75);
+data.setCell(5, 3, 43);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'C12_testAdd')
 data.setCell(6, 2, 'com.testcode.MathTest')
-data.setCell(6, 3, 12);
+data.setCell(6, 3, 31);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'C21_testDivision')
-data.setCell(7, 2, 'com.testcode.DataDrivenExcelTest')
-data.setCell(7, 3, 8);
+data.setCell(7, 1, 'C16_testOneMore')
+data.setCell(7, 2, 'com.testcode.MathTest')
+data.setCell(7, 3, 7);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'C14_testMultiply')
-data.setCell(8, 2, 'com.testcode.MathTest')
-data.setCell(8, 3, 6);
+data.setCell(8, 1, 'C20_testMultiplication')
+data.setCell(8, 2, 'com.testcode.DataDrivenExcelTest')
+data.setCell(8, 3, 7);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'C18_testAddition')
+data.setCell(9, 1, 'C21_testDivision')
 data.setCell(9, 2, 'com.testcode.DataDrivenExcelTest')
-data.setCell(9, 3, 5);
+data.setCell(9, 3, 6);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'C13_testSubtract')
-data.setCell(10, 2, 'com.testcode.MathTest')
-data.setCell(10, 3, 3);
+data.setCell(10, 1, 'C20_testMultiplication')
+data.setCell(10, 2, 'com.testcode.DataDrivenExcelTest')
+data.setCell(10, 3, 6);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'C18_testAddition')
 data.setCell(11, 2, 'com.testcode.DataDrivenExcelTest')
-data.setCell(11, 3, 3);
+data.setCell(11, 3, 4);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'C19_testSubtraction')
-data.setCell(12, 2, 'com.testcode.DataDrivenExcelTest')
+data.setCell(12, 1, 'C14_testMultiply')
+data.setCell(12, 2, 'com.testcode.MathTest')
 data.setCell(12, 3, 3);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'C21_testDivision')
-data.setCell(13, 2, 'com.testcode.DataDrivenExcelTest')
+data.setCell(13, 1, 'C13_testSubtract')
+data.setCell(13, 2, 'com.testcode.MathTest')
 data.setCell(13, 3, 3);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'C18_testAddition')
-data.setCell(14, 2, 'com.testcode.DataDrivenExcelTest')
+data.setCell(14, 1, 'C17_testDivideByZero')
+data.setCell(14, 2, 'com.testcode.MathTest')
 data.setCell(14, 3, 3);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'C16_testOneMore')
-data.setCell(15, 2, 'com.testcode.MathTest')
-data.setCell(15, 3, 2);
+data.setCell(15, 1, 'C19_testSubtraction')
+data.setCell(15, 2, 'com.testcode.DataDrivenExcelTest')
+data.setCell(15, 3, 3);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'C17_testDivideByZero')
+data.setCell(16, 1, 'C15_testDivide')
 data.setCell(16, 2, 'com.testcode.MathTest')
 data.setCell(16, 3, 2);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'C19_testSubtraction')
+data.setCell(17, 1, 'C18_testAddition')
 data.setCell(17, 2, 'com.testcode.DataDrivenExcelTest')
 data.setCell(17, 3, 2);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'C19_testSubtraction')
+data.setCell(18, 1, 'C18_testAddition')
 data.setCell(18, 2, 'com.testcode.DataDrivenExcelTest')
 data.setCell(18, 3, 2);
 data.setCell(19, 0, 19)
@@ -655,26 +622,26 @@ data.setCell(19, 1, 'C20_testMultiplication')
 data.setCell(19, 2, 'com.testcode.DataDrivenExcelTest')
 data.setCell(19, 3, 2);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'C20_testMultiplication')
+data.setCell(20, 1, 'C21_testDivision')
 data.setCell(20, 2, 'com.testcode.DataDrivenExcelTest')
 data.setCell(20, 3, 2);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'C20_testMultiplication')
+data.setCell(21, 1, 'C21_testDivision')
 data.setCell(21, 2, 'com.testcode.DataDrivenExcelTest')
-data.setCell(21, 3, 2);
+data.setCell(21, 3, 1);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'C21_testDivision')
+data.setCell(22, 1, 'C19_testSubtraction')
 data.setCell(22, 2, 'com.testcode.DataDrivenExcelTest')
-data.setCell(22, 3, 2);
+data.setCell(22, 3, 1);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'C15_testDivide')
-data.setCell(23, 2, 'com.testcode.MathTest')
+data.setCell(23, 1, 'C19_testSubtraction')
+data.setCell(23, 2, 'com.testcode.DataDrivenExcelTest')
 data.setCell(23, 3, 1);
 window.suiteTableData['Math_Test_suite']= { tableData: data, tableDiv: 'times-div-Math_Test_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Math_Test_suite">
               </div> <!-- times-div-Math_Test_suite -->
             </div> <!-- times-div -->
@@ -707,125 +674,123 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">C13_testSubtract</span>
-                <span class="method-start">16 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">C14_testMultiply</span>
-                <span class="method-start">22 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">C15_testDivide</span>
-                <span class="method-start">32 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">C16_testOneMore</span>
                 <span class="method-start">37 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">C14_testMultiply</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">C15_testDivide</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">C16_testOneMore</span>
+                <span class="method-start">57 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">C17_testDivideByZero</span>
-                <span class="method-start">41 ms</span>
+                <span class="method-start">67 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcode.DataDrivenExcelTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">C18_testAddition(2.0, 1.0, 3.0, 1.0, 2.0, 2.0)</span>
-                <span class="method-start">2285 ms</span>
+                <span class="method-start">2458 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">C18_testAddition(5.0, 2.0, 7.0, 3.0, 10.0, 2.5)</span>
-                <span class="method-start">2291 ms</span>
+                <span class="method-start">2465 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">C18_testAddition(18.0, 9.0, 27.0, 9.0, 162.0, 2.0)</span>
-                <span class="method-start">2300 ms</span>
+                <span class="method-start">2469 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">C19_testSubtraction(2.0, 1.0, 3.0, 1.0, 2.0, 2.0)</span>
-                <span class="method-start">2404 ms</span>
+                <span class="method-start">2575 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">C19_testSubtraction(5.0, 2.0, 7.0, 3.0, 10.0, 2.5)</span>
-                <span class="method-start">2412 ms</span>
+                <span class="method-start">2581 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">C19_testSubtraction(18.0, 9.0, 27.0, 9.0, 162.0, 2.0)</span>
-                <span class="method-start">2417 ms</span>
+                <span class="method-start">2585 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">C20_testMultiplication(2.0, 1.0, 3.0, 1.0, 2.0, 2.0)</span>
-                <span class="method-start">2510 ms</span>
+                <span class="method-start">2680 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">C20_testMultiplication(5.0, 2.0, 7.0, 3.0, 10.0, 2.5)</span>
-                <span class="method-start">2515 ms</span>
+                <span class="method-start">2690 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">C20_testMultiplication(18.0, 9.0, 27.0, 9.0, 162.0, 2.0)</span>
-                <span class="method-start">2520 ms</span>
+                <span class="method-start">2700 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">C21_testDivision(2.0, 1.0, 3.0, 1.0, 2.0, 2.0)</span>
-                <span class="method-start">2600 ms</span>
+                <span class="method-start">2783 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">C21_testDivision(5.0, 2.0, 7.0, 3.0, 10.0, 2.5)</span>
-                <span class="method-start">2606 ms</span>
+                <span class="method-start">2787 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">C21_testDivision(18.0, 9.0, 27.0, 9.0, 162.0, 2.0)</span>
-                <span class="method-start">2618 ms</span>
+                <span class="method-start">2792 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcode.RestAssuredTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">C24_testGetPeopleEndpoint</span>
-                <span class="method-start">2652 ms</span>
+                <span class="method-start">2820 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">C25_testPostPeopleEndpoint</span>
-                <span class="method-start">7874 ms</span>
+                <span class="method-start">7795 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">C26_testUpdatePeopleEndpoint</span>
-                <span class="method-start">8114 ms</span>
+                <span class="method-start">7988 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">C27_testDeletePeopleEndpoint</span>
-                <span class="method-start">8255 ms</span>
+                <span class="method-start">8119 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcode.GoogleTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">8347 ms</span>
+                <span class="method-start">8176 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">C22_testGoogleTitle</span>
-                <span class="method-start">11121 ms</span>
+                <span class="method-start">10759 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12100 ms</span>
+                <span class="method-start">12486 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcode.WikipediaSearchTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">12512 ms</span>
+                <span class="method-start">12952 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">C23_testSearchSeleniumOnWikipedia</span>
-                <span class="method-start">14600 ms</span>
+                <span class="method-start">15620 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">15932 ms</span>
+                <span class="method-start">21435 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

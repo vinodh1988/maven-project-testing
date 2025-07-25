@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="24" passed="23" failed="1" skipped="0">
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-24T22:02:01 IST" name="Math Test suite" finished-at="2025-07-24T22:02:18 IST" duration-ms="16447">
+  <suite started-at="2025-07-25T07:39:49 IST" name="Math Test suite" finished-at="2025-07-25T07:40:11 IST" duration-ms="21738">
     <groups>
     </groups>
-    <test started-at="2025-07-24T22:02:01 IST" name="Math Test" finished-at="2025-07-24T22:02:02 IST" duration-ms="103">
+    <test started-at="2025-07-25T07:39:49 IST" name="Math Test" finished-at="2025-07-25T07:39:49 IST" duration-ms="177">
       <class name="com.testcode.MathTest">
-        <test-method signature="C12_testAdd()[pri:0, instance:com.testcode.MathTest@34a3d150]" started-at="2025-07-24T22:02:01 IST" name="C12_testAdd" finished-at="2025-07-24T22:02:01 IST" duration-ms="12" status="PASS">
+        <test-method signature="C12_testAdd()[pri:0, instance:com.testcode.MathTest@34a3d150]" started-at="2025-07-25T07:39:49 IST" name="C12_testAdd" finished-at="2025-07-25T07:39:49 IST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C12_testAdd -->
-        <test-method signature="C13_testSubtract()[pri:0, instance:com.testcode.MathTest@34a3d150]" started-at="2025-07-24T22:02:01 IST" name="C13_testSubtract" finished-at="2025-07-24T22:02:02 IST" duration-ms="3" status="PASS">
+        <test-method signature="C13_testSubtract()[pri:0, instance:com.testcode.MathTest@34a3d150]" started-at="2025-07-25T07:39:49 IST" name="C13_testSubtract" finished-at="2025-07-25T07:39:49 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C13_testSubtract -->
-        <test-method signature="C14_testMultiply()[pri:0, instance:com.testcode.MathTest@34a3d150]" started-at="2025-07-24T22:02:02 IST" name="C14_testMultiply" finished-at="2025-07-24T22:02:02 IST" duration-ms="6" status="PASS">
+        <test-method signature="C14_testMultiply()[pri:0, instance:com.testcode.MathTest@34a3d150]" started-at="2025-07-25T07:39:49 IST" name="C14_testMultiply" finished-at="2025-07-25T07:39:49 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C14_testMultiply -->
-        <test-method signature="C15_testDivide()[pri:0, instance:com.testcode.MathTest@34a3d150]" started-at="2025-07-24T22:02:02 IST" name="C15_testDivide" finished-at="2025-07-24T22:02:02 IST" duration-ms="1" status="PASS">
+        <test-method signature="C15_testDivide()[pri:0, instance:com.testcode.MathTest@34a3d150]" started-at="2025-07-25T07:39:49 IST" name="C15_testDivide" finished-at="2025-07-25T07:39:49 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C15_testDivide -->
-        <test-method signature="C16_testOneMore()[pri:0, instance:com.testcode.MathTest@34a3d150]" started-at="2025-07-24T22:02:02 IST" name="C16_testOneMore" finished-at="2025-07-24T22:02:02 IST" duration-ms="2" status="PASS">
+        <test-method signature="C16_testOneMore()[pri:0, instance:com.testcode.MathTest@34a3d150]" started-at="2025-07-25T07:39:49 IST" name="C16_testOneMore" finished-at="2025-07-25T07:39:49 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C16_testOneMore -->
-        <test-method signature="C17_testDivideByZero()[pri:0, instance:com.testcode.MathTest@34a3d150]" started-at="2025-07-24T22:02:02 IST" name="C17_testDivideByZero" finished-at="2025-07-24T22:02:02 IST" duration-ms="2" status="PASS">
+        <test-method signature="C17_testDivideByZero()[pri:0, instance:com.testcode.MathTest@34a3d150]" started-at="2025-07-25T07:39:49 IST" name="C17_testDivideByZero" finished-at="2025-07-25T07:39:49 IST" duration-ms="3" status="PASS">
           <exception class="java.lang.ArithmeticException">
             <message>
               <![CDATA[Division by zero is not allowed.]]>
@@ -72,9 +72,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- C17_testDivideByZero -->
       </class> <!-- com.testcode.MathTest -->
     </test> <!-- Math Test -->
-    <test started-at="2025-07-24T22:02:02 IST" name="Excel Test" finished-at="2025-07-24T22:02:04 IST" duration-ms="2467">
+    <test started-at="2025-07-25T07:39:50 IST" name="Excel Test" finished-at="2025-07-25T07:39:52 IST" duration-ms="2521">
       <class name="com.testcode.DataDrivenExcelTest">
-        <test-method signature="C18_testAddition(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T22:02:04 IST" name="C18_testAddition" data-provider="mathData" finished-at="2025-07-24T22:02:04 IST" duration-ms="3" status="PASS">
+        <test-method signature="C18_testAddition(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-25T07:39:52 IST" name="C18_testAddition" data-provider="mathData" finished-at="2025-07-25T07:39:52 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,7 +110,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C18_testAddition -->
-        <test-method signature="C18_testAddition(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T22:02:04 IST" name="C18_testAddition" data-provider="mathData" finished-at="2025-07-24T22:02:04 IST" duration-ms="5" status="PASS">
+        <test-method signature="C18_testAddition(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-25T07:39:52 IST" name="C18_testAddition" data-provider="mathData" finished-at="2025-07-25T07:39:52 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -146,7 +146,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C18_testAddition -->
-        <test-method signature="C18_testAddition(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T22:02:04 IST" name="C18_testAddition" data-provider="mathData" finished-at="2025-07-24T22:02:04 IST" duration-ms="3" status="PASS">
+        <test-method signature="C18_testAddition(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-25T07:39:52 IST" name="C18_testAddition" data-provider="mathData" finished-at="2025-07-25T07:39:52 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -182,7 +182,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C18_testAddition -->
-        <test-method signature="C19_testSubtraction(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T22:02:04 IST" name="C19_testSubtraction" data-provider="mathData" finished-at="2025-07-24T22:02:04 IST" duration-ms="3" status="PASS">
+        <test-method signature="C19_testSubtraction(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-25T07:39:52 IST" name="C19_testSubtraction" data-provider="mathData" finished-at="2025-07-25T07:39:52 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -218,7 +218,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C19_testSubtraction -->
-        <test-method signature="C19_testSubtraction(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T22:02:04 IST" name="C19_testSubtraction" data-provider="mathData" finished-at="2025-07-24T22:02:04 IST" duration-ms="2" status="PASS">
+        <test-method signature="C19_testSubtraction(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-25T07:39:52 IST" name="C19_testSubtraction" data-provider="mathData" finished-at="2025-07-25T07:39:52 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -254,7 +254,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C19_testSubtraction -->
-        <test-method signature="C19_testSubtraction(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T22:02:04 IST" name="C19_testSubtraction" data-provider="mathData" finished-at="2025-07-24T22:02:04 IST" duration-ms="2" status="PASS">
+        <test-method signature="C19_testSubtraction(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-25T07:39:52 IST" name="C19_testSubtraction" data-provider="mathData" finished-at="2025-07-25T07:39:52 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -290,7 +290,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C19_testSubtraction -->
-        <test-method signature="C20_testMultiplication(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T22:02:04 IST" name="C20_testMultiplication" data-provider="mathData" finished-at="2025-07-24T22:02:04 IST" duration-ms="2" status="PASS">
+        <test-method signature="C20_testMultiplication(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-25T07:39:52 IST" name="C20_testMultiplication" data-provider="mathData" finished-at="2025-07-25T07:39:52 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -326,7 +326,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C20_testMultiplication -->
-        <test-method signature="C20_testMultiplication(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T22:02:04 IST" name="C20_testMultiplication" data-provider="mathData" finished-at="2025-07-24T22:02:04 IST" duration-ms="2" status="PASS">
+        <test-method signature="C20_testMultiplication(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-25T07:39:52 IST" name="C20_testMultiplication" data-provider="mathData" finished-at="2025-07-25T07:39:52 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -362,7 +362,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C20_testMultiplication -->
-        <test-method signature="C20_testMultiplication(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T22:02:04 IST" name="C20_testMultiplication" data-provider="mathData" finished-at="2025-07-24T22:02:04 IST" duration-ms="2" status="PASS">
+        <test-method signature="C20_testMultiplication(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-25T07:39:52 IST" name="C20_testMultiplication" data-provider="mathData" finished-at="2025-07-25T07:39:52 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -398,7 +398,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C20_testMultiplication -->
-        <test-method signature="C21_testDivision(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T22:02:04 IST" name="C21_testDivision" data-provider="mathData" finished-at="2025-07-24T22:02:04 IST" duration-ms="2" status="PASS">
+        <test-method signature="C21_testDivision(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-25T07:39:52 IST" name="C21_testDivision" data-provider="mathData" finished-at="2025-07-25T07:39:52 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -434,7 +434,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C21_testDivision -->
-        <test-method signature="C21_testDivision(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T22:02:04 IST" name="C21_testDivision" data-provider="mathData" finished-at="2025-07-24T22:02:04 IST" duration-ms="8" status="PASS">
+        <test-method signature="C21_testDivision(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-25T07:39:52 IST" name="C21_testDivision" data-provider="mathData" finished-at="2025-07-25T07:39:52 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -470,7 +470,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C21_testDivision -->
-        <test-method signature="C21_testDivision(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-24T22:02:04 IST" name="C21_testDivision" data-provider="mathData" finished-at="2025-07-24T22:02:04 IST" duration-ms="3" status="PASS">
+        <test-method signature="C21_testDivision(double,double,double,double,double,double)[pri:0, instance:com.testcode.DataDrivenExcelTest@26794848]" started-at="2025-07-25T07:39:52 IST" name="C21_testDivision" data-provider="mathData" finished-at="2025-07-25T07:39:52 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -508,123 +508,53 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
         </test-method> <!-- C21_testDivision -->
       </class> <!-- com.testcode.DataDrivenExcelTest -->
     </test> <!-- Excel Test -->
-    <test started-at="2025-07-24T22:02:04 IST" name="Rest Assured Test" finished-at="2025-07-24T22:02:10 IST" duration-ms="5692">
+    <test started-at="2025-07-25T07:39:52 IST" name="Rest Assured Test" finished-at="2025-07-25T07:39:58 IST" duration-ms="5350">
       <class name="com.testcode.RestAssuredTest">
-        <test-method signature="C24_testGetPeopleEndpoint()[pri:1, instance:com.testcode.RestAssuredTest@ba2f4ec]" started-at="2025-07-24T22:02:04 IST" name="C24_testGetPeopleEndpoint" finished-at="2025-07-24T22:02:09 IST" duration-ms="5218" status="PASS">
+        <test-method signature="C24_testGetPeopleEndpoint()[pri:1, instance:com.testcode.RestAssuredTest@ba2f4ec]" started-at="2025-07-25T07:39:52 IST" name="C24_testGetPeopleEndpoint" finished-at="2025-07-25T07:39:57 IST" duration-ms="4969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C24_testGetPeopleEndpoint -->
-        <test-method signature="C25_testPostPeopleEndpoint()[pri:2, instance:com.testcode.RestAssuredTest@ba2f4ec]" started-at="2025-07-24T22:02:09 IST" name="C25_testPostPeopleEndpoint" finished-at="2025-07-24T22:02:10 IST" duration-ms="237" status="PASS">
+        <test-method signature="C25_testPostPeopleEndpoint()[pri:2, instance:com.testcode.RestAssuredTest@ba2f4ec]" started-at="2025-07-25T07:39:57 IST" name="C25_testPostPeopleEndpoint" finished-at="2025-07-25T07:39:57 IST" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C25_testPostPeopleEndpoint -->
-        <test-method signature="C26_testUpdatePeopleEndpoint()[pri:3, instance:com.testcode.RestAssuredTest@ba2f4ec]" started-at="2025-07-24T22:02:10 IST" name="C26_testUpdatePeopleEndpoint" finished-at="2025-07-24T22:02:10 IST" duration-ms="138" status="PASS">
+        <test-method signature="C26_testUpdatePeopleEndpoint()[pri:3, instance:com.testcode.RestAssuredTest@ba2f4ec]" started-at="2025-07-25T07:39:57 IST" name="C26_testUpdatePeopleEndpoint" finished-at="2025-07-25T07:39:58 IST" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C26_testUpdatePeopleEndpoint -->
-        <test-method signature="C27_testDeletePeopleEndpoint()[pri:4, instance:com.testcode.RestAssuredTest@ba2f4ec]" started-at="2025-07-24T22:02:10 IST" name="C27_testDeletePeopleEndpoint" finished-at="2025-07-24T22:02:10 IST" duration-ms="75" status="PASS">
+        <test-method signature="C27_testDeletePeopleEndpoint()[pri:4, instance:com.testcode.RestAssuredTest@ba2f4ec]" started-at="2025-07-25T07:39:58 IST" name="C27_testDeletePeopleEndpoint" finished-at="2025-07-25T07:39:58 IST" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C27_testDeletePeopleEndpoint -->
       </class> <!-- com.testcode.RestAssuredTest -->
     </test> <!-- Rest Assured Test -->
-    <test started-at="2025-07-24T22:02:10 IST" name="Selenium Test" finished-at="2025-07-24T22:02:14 IST" duration-ms="4159">
+    <test started-at="2025-07-25T07:39:58 IST" name="Selenium Test" finished-at="2025-07-25T07:40:02 IST" duration-ms="4766">
       <class name="com.testcode.GoogleTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcode.GoogleTest@247bddad]" started-at="2025-07-24T22:02:10 IST" name="setUp" finished-at="2025-07-24T22:02:13 IST" duration-ms="2771" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcode.GoogleTest@247bddad]" started-at="2025-07-25T07:39:58 IST" name="setUp" finished-at="2025-07-25T07:40:00 IST" duration-ms="2581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="C22_testGoogleTitle()[pri:0, instance:com.testcode.GoogleTest@247bddad]" started-at="2025-07-24T22:02:13 IST" name="C22_testGoogleTitle" finished-at="2025-07-24T22:02:14 IST" duration-ms="976" status="PASS">
+        <test-method signature="C22_testGoogleTitle()[pri:0, instance:com.testcode.GoogleTest@247bddad]" started-at="2025-07-25T07:40:00 IST" name="C22_testGoogleTitle" finished-at="2025-07-25T07:40:02 IST" duration-ms="1725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C22_testGoogleTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcode.GoogleTest@247bddad]" started-at="2025-07-24T22:02:14 IST" name="tearDown" finished-at="2025-07-24T22:02:14 IST" duration-ms="401" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcode.GoogleTest@247bddad]" started-at="2025-07-25T07:40:02 IST" name="tearDown" finished-at="2025-07-25T07:40:02 IST" duration-ms="451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testcode.GoogleTest -->
     </test> <!-- Selenium Test -->
-    <test started-at="2025-07-24T22:02:14 IST" name="Selenium Test two" finished-at="2025-07-24T22:02:18 IST" duration-ms="3889">
+    <test started-at="2025-07-25T07:40:02 IST" name="Selenium Test two" finished-at="2025-07-25T07:40:11 IST" duration-ms="8698">
       <class name="com.testcode.WikipediaSearchTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcode.WikipediaSearchTest@3d34d211]" started-at="2025-07-24T22:02:14 IST" name="setup" finished-at="2025-07-24T22:02:16 IST" duration-ms="2088" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcode.WikipediaSearchTest@3d34d211]" started-at="2025-07-25T07:40:02 IST" name="setup" finished-at="2025-07-25T07:40:05 IST" duration-ms="2668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="C23_testSearchSeleniumOnWikipedia()[pri:0, instance:com.testcode.WikipediaSearchTest@3d34d211]" started-at="2025-07-24T22:02:16 IST" name="C23_testSearchSeleniumOnWikipedia" finished-at="2025-07-24T22:02:17 IST" duration-ms="1294" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#firstHeading"}
-  (Session info: chrome=138.0.7204.169)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1a0ab61a7949c3f15f1d3f98132df09b, findElement {value=firstHeading, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\vinodh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61364}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61364/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1a0ab61a7949c3f15f1d3f98132df09b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#firstHeading"}
-  (Session info: chrome=138.0.7204.169)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1a0ab61a7949c3f15f1d3f98132df09b, findElement {value=firstHeading, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\vinodh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61364}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61364/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1a0ab61a7949c3f15f1d3f98132df09b
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at com.testcode.WikipediaSearchTest.C23_testSearchSeleniumOnWikipedia(WikipediaSearchTest.java:30)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="C23_testSearchSeleniumOnWikipedia()[pri:0, instance:com.testcode.WikipediaSearchTest@3d34d211]" started-at="2025-07-25T07:40:05 IST" name="C23_testSearchSeleniumOnWikipedia" finished-at="2025-07-25T07:40:11 IST" duration-ms="5814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- C23_testSearchSeleniumOnWikipedia -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcode.WikipediaSearchTest@3d34d211]" started-at="2025-07-24T22:02:17 IST" name="teardown" finished-at="2025-07-24T22:02:18 IST" duration-ms="465" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcode.WikipediaSearchTest@3d34d211]" started-at="2025-07-25T07:40:11 IST" name="teardown" finished-at="2025-07-25T07:40:11 IST" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
